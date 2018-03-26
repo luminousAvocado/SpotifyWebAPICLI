@@ -1,0 +1,20 @@
+{
+  "name": "spotify-app",
+  "version": "1.0.0",
+  "description": "displays certain data of selected artists, albums, tracks, etc...",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Gonzalez, Victor Orozco, James Kang, Francisco Gudino, Tan Luong",
+  "license": "ISC",
+  "dependencies": {
+    "api-spotify": "file:../api-spotify",
+    "chalk": "^2.3.2",
+    "cli-table": "^0.3.1",
+    "cli-table2": "^0.2.0",
+    "inquirer": "^5.1.0",
+    "yargonaut": "^1.1.2",
+    "yargs": "^11.0.0"
+  }
+}
